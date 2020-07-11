@@ -1,0 +1,11 @@
+set path=%path%;%cd%\python3;%cd%\python3\Scripts
+
+cd bin
+start python web.py 8080 >>../logs/web1.log
+start python web.py 8081 >>../logs/web2.log
+echo start web success
+start celery -A task worker --loglevel=info >>../logs/worker.log
+echo start work success
+::cd ../nginx
+::start nginx.exe
+::echo start nginx success

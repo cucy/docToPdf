@@ -1,0 +1,19 @@
+# E:\工作\office文档转换\docToPdf\python3>.\python.exe -m pip freeze
+amqp==1.4.9
+anyjson==0.3.3
+billiard==3.3.0.23
+celery==3.1.25
+click==6.7
+comtypes==1.1.4
+Flask==0.12.2
+itsdangerous==0.24
+Jinja2==2.10
+kombu==3.0.37
+MarkupSafe==1.0
+pytz==2018.4
+pywin32==223
+redis==2.10.6
+vine==1.1.4
+Werkzeug==0.14.1
+comtypes
+pypiwin32
